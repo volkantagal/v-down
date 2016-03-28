@@ -1,2 +1,5 @@
 # v-down
-Download file to web
+Download file from web
+
+#Link ekleme
+Videonun linkini input alanina ekleyip indir butonuna basmaniz yeterli.
