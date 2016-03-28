@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Download File From Web</title>
+	<style type="text/css">
+		#language {
+			position: absolute;
+			top: 16px;
+			right: 16px;
+		}
+
+		#language ul {
+			margin: 0px;
+			padding: 0px;
+			clear: both;
+		}
+
+		#language ul li {
+			margin: 0 5px;
+			float: left;
+			list-style: none;
+			border: 2px solid #FFF;
+		}
+
+		#language ul li img {
+			display: block;
+		}
+
+		#language ul li.active {
+			border: 2px solid #31adbf;
+			border-radius: 3px;
+			overflow: hidden;
+		}
+
+		#download {
+			width: auto;
+			height: auto;
+			display: block;
+			background-color: #4da8b8;
+			color: white;
+			font-family: Arial;
+			text-align: center;
+		    font-size: 12px;
+		    text-decoration: none;
+			padding: 10px 15px;
+			margin: 16px auto;
+			border: none;
+			cursor: pointer;
+		}
+
+		#downloadLink {
+			width: auto;
+			height: 32px;
+			display: block;
+			margin: 16px auto 0;
+			padding: 0 16px;
+			color: #969696;
+			border: 1px solid #CCC;
+		}
+
+		.notification {
+			display: block;
+			padding: 32px 0 0;
+			font-size: 12px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id='language' class='language'>
+		<ul>
+			<li id='id-tr'>
+				<img id='tr' src="images/tr.png"/>
+			</li>
+			<li id='id-eng'>
+				<img id='eng' src="images/eng.png"/>
+			</li>
+		</ul>
+	</div>
+	<span id='notification' class="notification">Indirmek istediginiz linki giriniz.</span>
+	<input type='text' id='downloadLink' class='input'/>
+	<a class="button desktop" id="download">Indir</a>
+	
+	<script src="scripts/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="scripts/ex.js"></script>
+</body>
+</html>

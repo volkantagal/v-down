@@ -1,0 +1,15 @@
+{  
+	"name": "v-down",  
+	"version": "1.0",  
+	"manifest_version": 2,  
+	"description": "Download files from web",  
+	"browser_action": {
+		"default_icon" : "images/icon.png",  
+		"default_popup" : "index.html"
+	},
+	"icons": {
+		"16": "images/icon-16.png", 
+		"48": "images/icon.png", 
+		"128": "images/icon-128.png"
+	}
+}
